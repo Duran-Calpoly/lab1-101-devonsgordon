@@ -7,6 +7,7 @@ def check_multiple (number):
         return("True")
     elif number % 5 != 0  &  number % 3 != 0:
         return("False")
+    
 
 def check_password (input_string):
     if input_string == ("Python123"):
